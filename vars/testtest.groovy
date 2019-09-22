@@ -1,9 +1,11 @@
 #!/usr/bin/env groovy
 
-stage('Test') {
-	steps {
-	
-		echo "Check status"
+def call(body) {
+    stage('Test') {
+		steps {
 		
+			echo "Check status"
+			
+		}
 	}
 }
