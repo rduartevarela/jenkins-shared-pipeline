@@ -1,9 +1,9 @@
-def call(String name, String surname, int curretnbuild) {
+def call(Map config) {
 
-	if(curretnbuild%2 == 0){
-		echo "Hello World: ${name} "
+	if(config.curretnbuild%2 == 0){
+		echo "Hello World: ${config.name} "
 	} else {
-		echo "Hello World: ${surname}"
+		echo "Hello World: ${config.surname}"
 	}
 
 }
