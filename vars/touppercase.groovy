@@ -1,5 +1,5 @@
-def call(Map config) {
+def call(String name) {
 
-	echo "Hello World UPPERCASE: ${config.name.toString().toUpperCase()} "
+	echo "Hello World UPPERCASE: ${name.toUpperCase()}"
 
 }
