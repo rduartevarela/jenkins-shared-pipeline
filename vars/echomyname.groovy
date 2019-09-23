@@ -1,5 +1,9 @@
-def call(String name) {
+def call(String name, String surname, int curretnbuild) {
 
-	echo "Hello World: ${name}"
+	if(curretnbuild%2 == 0){
+		echo "Hello World: ${name} "
+	} else {
+		echo "Hello World: ${surname}"
+	}
 
 }
