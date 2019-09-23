@@ -1,7 +1,5 @@
-#!/usr/bin/env groovy
+def call(String name) {
 
-def call(Map config) {
-
-	echo "Helloooo: ${config.name}. You are at: ${config.location}"
+	echo "Hello World: ${name}"
 
 }
