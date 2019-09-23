@@ -7,3 +7,9 @@ def call(Map config) {
 	}
 
 }
+
+def testother(String name) {
+
+	echo "Hello World from testother: ${name}"
+
+}
