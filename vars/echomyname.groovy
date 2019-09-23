@@ -2,6 +2,6 @@
 
 def call(String name) {
 
-	echo 'Hello World, ' + name 
+	echo "Helloooo: ${name}"
 
 }
